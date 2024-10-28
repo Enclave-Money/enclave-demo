@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# Enclave: Next-Generation Passkey Wallets
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Enclave revolutionizes Web3 wallet security and user experience by leveraging device-native secure enclaves and biometric authentication. Experience self-custody without seed phrases, cross-device synchronization without downloads, and seamless blockchain interactions without compromising security.
 
-## Available Scripts
+## 🔐 Secure by Design
 
-In the project directory, you can run:
+### Passkey-Based Security
+- Leverage your device's secure enclave for military-grade protection
+- No seed phrases to store or potentially expose
+- Each private key is encrypted and stored directly in your device's secure hardware
+- FIDO2-compliant passkey implementation ensures industry-standard security
 
-### `npm start`
+### Biometric Authentication
+- Authenticate with Face ID, Touch ID, or fingerprint sensors
+- Transaction signing requires biometric confirmation
+- No more copying and pasting long addresses or confirming complex hex data
+- Hardware-level security meets intuitive user experience
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🌐 Cross-Chain Compatibility
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Unified EVM Experience
+- Seamlessly interact with all EVM-compatible networks
+- One account, infinite blockchain possibilities
+- Currently supported networks:
+  - Arbitrum
+  - Optimism
+  - Base
+  - Avalanche
 
-### `npm test`
+## 📱 True Cross-Device Support
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Synchronized & Seamless
+- Access your wallet from any device, instantly
+- No downloads required - pure web-based experience
+- Supported platforms:
+  - iOS (Safari)
+  - macOS (Safari, Chrome)
+  - Android (Chrome)
+  - Windows (Chrome, Edge)
 
-### `npm run build`
+### Automatic Backup & Recovery
+- Encrypted backups to iCloud (iOS/macOS)
+- Google Password Manager integration (Android/Chrome)
+- Never worry about losing access to your assets
+- Full self-custody maintained at all times
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💡 Superior User Experience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Web2-Level Simplicity
+- Login with just a face scan or fingerprint
+- No wallet extensions or apps to install
+- Intuitive interface for both crypto-natives and newcomers
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Smart Transaction Management
+- Biometric confirmation for security
 
-### `npm run eject`
+## 🚀 Coming Soon
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Multiple Signing Options
+- Add EOA based signers for recovery or primary account custody in addition to passkeys
+- Add and revoke access to session keys for transaction automation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Enclave Smart Balance
+- Unified stablecoin balance across all networks
+- Chainless crypto experience for end users
+- No network-specific context needed
+- Completely gasless transactions
+- Seamless cross-chain transfers
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### EVM Integration
+- ETH Mainnet
+- Polygon
+- Fantom
+- Celo
+- BSC Mainnet
+- Monad
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Solana Integration
+- Native Solana support
+- Same seamless experience across EVM and Solana
+- Unified interface for all supported chains

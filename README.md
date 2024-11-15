@@ -54,18 +54,25 @@ Enclave revolutionizes Web3 wallet security and user experience by leveraging de
 ### Smart Transaction Management
 - Biometric confirmation for security
 
+### Enclave Smart Balance
+
+#### Supported Networks
+- Arbitrum, Base, Optimism (other coming soon)
+
+#### Smart Balance Order Types
+- AMOUNT_IN : the *amount* field in order data is the amount the user is willing to spend from their balance to receive tokens on the desired destination chain. the *limit* field is the minimum amount the user would expect to receive on the destination chain where they wish to transact
+- AMOUNT_OUT : the *amount* field in order data is the amount the user requires on the destination chain. the *limit* field is the maximum amount the user is willing to spend from their 
+
+#### Smart Balance Order Data Fields
+- *type* (required) (Determined based on use case. If a user wants to buy an NFT worth exactly 100 USDC, AMOUNT_OUT would be appropriate. If a user wants to spend exactly 100 USDC to purchase a memecoin AMOUNT_IN would be appropriate)
+- *amount* (required)
+- *limit* (optional)
+
 ## 🚀 Coming Soon
 
 ### Multiple Signing Options
 - Add EOA based signers for recovery or primary account custody in addition to passkeys
 - Add and revoke access to session keys for transaction automation
-
-### Enclave Smart Balance
-- Unified stablecoin balance across all networks
-- Chainless crypto experience for end users
-- No network-specific context needed
-- Completely gasless transactions
-- Seamless cross-chain transfers
 
 ### EVM Integration
 - ETH Mainnet
